@@ -12,7 +12,7 @@ namespace CatEngine {
 
     void App::Run()
     {
-        std::cout << "Linking Successful!" << std::endl;
+        std::cout << "Build ACTUALLY Worked Accordingly!" << std::endl;
         while(true);
     }
 }
