@@ -1,4 +1,4 @@
-#include "../../Application/src/CatEngine.h"
+#include "CatEngine.h"
 
 class Sandbox : public CatEngine::App
 {

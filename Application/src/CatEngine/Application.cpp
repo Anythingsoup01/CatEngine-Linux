@@ -1,5 +1,7 @@
 #include "App.h"
 
+#include "core/Log.h"
+
 namespace CatEngine {
 
     App::App() {
@@ -12,7 +14,6 @@ namespace CatEngine {
 
     void App::Run()
     {
-        std::cout << "Build ACTUALLY Worked Accordingly!" << std::endl;
         while(true);
     }
 }
