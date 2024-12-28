@@ -1,11 +1,11 @@
-#include <iostream>
-#include "src/Core/Application.h"
+#include "cepch.h"
+#include "Application.h"
 
 namespace CatEngine
 {
 	Application::Application()
 	{
-		std::cout << "Hello World!" << std::endl;
+		CE_API_CRITICAL("Engine Initialized");
 	}
 
 	Application::~Application()
@@ -16,8 +16,8 @@ namespace CatEngine
 		int i = 0;
 		while(m_Running)
 		{
-			std::cout << i << std::endl;
-			i++;
+		
+		
 		}
 	}
 

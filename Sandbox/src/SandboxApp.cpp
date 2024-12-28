@@ -1,4 +1,4 @@
-#include "../../CatEngine/src/CatEngine.h"
+#include "CatEngine.h"
 
 namespace CatEngine
 {
@@ -6,7 +6,9 @@ namespace CatEngine
 	{
 	public:
 		Sandbox()
-		{}
+		{
+			CE_CLI_INFO("Application Initialized");
+		}
 	};
 
 	Application* CreateApplication()
