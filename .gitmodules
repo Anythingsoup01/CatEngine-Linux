@@ -1,0 +1,15 @@
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "vendor/glfw"]
+	path = vendor/glfw
+	url = https://github.com/anythingsoup01/glfw
+[submodule "vendor/glad"]
+	path = vendor/glad
+	url = https://github.com/anythingsoup01/glad
+[submodule "vendor/imgui"]
+	path = vendor/imgui
+	url = https://github.com/anythingsoup01/imgui
+[submodule "vendor/GLM"]
+	path = vendor/GLM
+	url = https://github.com/anythingsoup01/glm
