@@ -10,6 +10,6 @@
 [submodule "vendor/imgui"]
 	path = vendor/imgui
 	url = https://github.com/anythingsoup01/imgui
-[submodule "vendor/GLM"]
-	path = vendor/GLM
+[submodule "vendor/glm"]
+	path = vendor/glm
 	url = https://github.com/anythingsoup01/glm
